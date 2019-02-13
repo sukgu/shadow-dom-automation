@@ -33,7 +33,7 @@ You can use this iteratively by changing root = <your current dom>
 			var all_items = Array.from(document.getElementsByTagName("body")[0].getElementsByTagName("script"));
 			all_items.forEach(function(element) {
 				  let name = element.src;
-				  if(name.include("querySelectorDeep.js")) {
+				  if(name.include("querySelector.js")) {
 					script_present=true;
 				  }
 			});
@@ -41,7 +41,7 @@ You can use this iteratively by changing root = <your current dom>
 				var bootscript = document.createElement("script");
 				bootscript.setAttribute("type", "text/javascript");
 				bootscript.setAttribute("language", "javascript");
-				bootscript.setAttribute("src", "//localhost:8082/a/querySelectorDeep.js");
+				bootscript.setAttribute("src", "//localhost:8082/a/querySelector.js");
 				document.getElementsByTagName("body")[0].appendChild(bootscript);
 			}
 		JS
