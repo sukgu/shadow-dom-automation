@@ -73,5 +73,5 @@ You can use this iteratively by changing root = <your current dom>
     Lib.execute_script("return getObject('properties-page#settingsPage>textarea#textarea');")
   ```
   
-  ####### Note: > is used to combine multi level dom structure. So you can combine 3 levels of dom. If you want some more level modify the script and ready to rock.
+  ###### Note: > is used to combine multi level dom structure. So you can combine 3 levels of dom. If you want some more level modify the script and ready to rock.
   
